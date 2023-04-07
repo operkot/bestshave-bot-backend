@@ -4,8 +4,8 @@ const cors = require('cors')
 const bot = require('./app/bot')
 const MESSAGES = require('./app/messages')
 
-// const webAppUrl = 'https://earnest-wisp-ba3bc3.netlify.app/'
-const webAppUrl = 'https://fa82-81-163-156-8.eu.ngrok.io'
+const webAppUrl = 'https://earnest-wisp-ba3bc3.netlify.app/'
+// const webAppUrl = 'https://fa82-81-163-156-8.eu.ngrok.io'
 const PORT = '8080'
 
 const app = express()
