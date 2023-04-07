@@ -4,7 +4,7 @@ const cors = require('cors')
 const bot = require('./app/bot')
 const MESSAGES = require('./app/messages')
 
-const webAppUrl = 'https://operkot.github.io/bestshave-bot-frontend'
+const webAppUrl = 'https://operkot.github.io/bestshave-bot-frontend/#/'
 // const webAppUrl = 'https://fa82-81-163-156-8.eu.ngrok.io'
 const PORT = '8080'
 
