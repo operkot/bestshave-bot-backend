@@ -5,6 +5,7 @@ const webAppUrl = 'https://operkot.github.io/bestshave-bot-frontend/#/'
 
 const start = () => {
   bot.setMyCommands([
+    { command: '/start', description: 'Начало работы с ботом' },
     { command: '/faq', description: 'Часто задаваемые вопросы' },
     { command: '/info', description: 'Информация о доставке и оплате' },
     { command: '/contacts', description: 'Контактная информация' },
