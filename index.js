@@ -20,7 +20,7 @@ const start = () => {
       return bot.sendMessage(chatId, MESSAGES.WELLCOME_MESSAGE(user), {
         parse_mode: 'Markdown',
         reply_markup: {
-          keyboard: [[{ text: 'Магазин', web_app: { url: webAppUrl } }]],
+          keyboard: [[{ text: 'Каталог', web_app: { url: webAppUrl } }]],
           row_width: 1,
           resize_keyboard: true,
         },
